@@ -8,7 +8,7 @@ export default function Questions() {
 
     return (
         <>
-            <h2 className="page-title">Questions</h2>
+            <h1 className="page-title">सभी प्रश्न सेट :- </h1>
             <div className="project-list">
                 {cards.map((project, ind) => (
                     <Link to={`projects/${ind + 1}`} key={ind}>

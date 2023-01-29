@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="navbar">
             <ul>
                 <li>
-                    <h4>Hello</h4>
+                    <a href="https://play.google.com/store/apps/details?id=com.ciberspace.RTOExamHindi" target="_blank"> <button className="btn">हमारे Android ऐप को आज़माएं</button></a>
                 </li>
             </ul>
         </div>

@@ -5,7 +5,7 @@
     grid-gap: 20px;
 }
 
-.project-list a {
+.project-list .link {
     background-color: #fff;
     padding: 16px;
     border-radius: 15px;
@@ -14,7 +14,7 @@
     color: inherit;
 }
 
-.project-list h4 {
+.project-list h3 {
     font-size: 0.9em;
     color: var(--heading-color);
 }
@@ -25,7 +25,8 @@
 }
 
 .project-list .assigned-to {
-    margin-top: 20px;
+    font-size: 0.9em;
+    margin-top: 10px;
     padding-top: 10px;
     border-top: 1px solid #eee;
 }
