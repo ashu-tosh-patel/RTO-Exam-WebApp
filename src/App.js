@@ -8,6 +8,7 @@ import Tests from './pages/Tests';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import QnA from './pages/QnA';
+import TestSet from './pages/TestSet';
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
               <Tests />
             </Route>
             <Route path="/projects/:id">
-              <QnA/>
+              <QnA />
+            </Route>
+            <Route path="/tests/:id">
+              <TestSet />
             </Route>
             <Route path="*">
               <Redirect to="/" />

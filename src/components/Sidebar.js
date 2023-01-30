@@ -44,7 +44,7 @@ export default function Sidebar() {
                         <li>
                             <NavLink to="/tests">
                                 <img src={Test} alt="add project icon" />
-                                <span>परीक्षण</span>
+                                <span>अभ्यास परीक्षा</span>
                             </NavLink>
                         </li>
                     </ul>

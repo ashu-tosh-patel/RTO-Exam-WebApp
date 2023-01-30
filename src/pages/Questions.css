@@ -12,6 +12,12 @@
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
     text-decoration: none;
     color: inherit;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.project-list a:hover {
+    transform: rotate(3deg);
 }
 
 .project-list h4 {

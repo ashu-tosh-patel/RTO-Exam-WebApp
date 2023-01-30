@@ -1,0 +1,39 @@
+.quiz {
+    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.quiz .btn {
+    background-color: #fff;
+    margin: 10px 0;
+    /* padding: 16px; */
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.quiz .btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.quiz h3 {
+    font-size: 0.9em;
+    color: var(--heading-color);
+}
+
+.quiz p {
+    font-size: 0.9em;
+}
+
+.quiz img {
+    float: right;
+    width: 2.5%;
+}
+
+.next {
+    float: right;
+}
